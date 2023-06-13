@@ -7,7 +7,6 @@ public class Movement : MonoBehaviour
     public Rigidbody rb;
     public float speed;
     public float jumpSpeed;
-    private float test;
     void Update()
     {
         if ((Input.GetKey(KeyCode.W)) || (Input.GetKey(KeyCode.UpArrow)))
